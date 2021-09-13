@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 950px;
+  height: 680px;
+  background-color: rgb(0,0,0,0.5);   /* sfondo nero con trasparenza del 50% */
+  margin: auto;
+  border-radius: 15px;
+}
+
+.content {
+  width: 800px;
+  margin: 20px auto;
+  padding-top: 80px;
+}
+
+img {
+  width: 200px;
+}
+
+header > h1 {
+  color: #00e600;
+  letter-spacing: -0.5px;
+  font-size: 25px;
+}
+
+nav, header {
+  text-align: center;
+}
+
+nav {
+  background-color: #00e600;
+  margin-top: 5px;
+  padding: 8px;
+}
+
+input[type="submit"] {
+  font-size: 10px;
+}
+
+main {
+  color: white;
+}
+
+.monopattino {
+  margin-top: 20px;
+}
+
+.nome.monopattino > h2 {
+  display: inline-block;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+
+.nome.monopattino {
+  padding-left: 5px;
+}
+
+.monopattino > h4 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.posizione:before {
+  content: '\21A6';
+}
+
+#carica-Gino, #carica-Mike, #carica-Fede {
+  height: 25px;
+  border-radius: 5px;
+}
+
+#carica-Gino {
+  background-color: #ffc34d;
+  width: 35%;
+}
+
+#carica-Mike {
+  background-color: #00b300;
+  width: 60%;
+}
+
+#carica-Fede {
+  background-color: #cc2900;
+  width: 15%;
+}
